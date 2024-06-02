@@ -25,7 +25,7 @@
 .u-text-center{text-align: center;}
 
 //border
-.u-border-bottom{border-bottom:1px solid rgba(40, 44, 52, 1)}
-.u-border-top{border-top:1px solid rgba(40, 44, 52, 1)}
-.u-border-left{border-left:1px solid rgba(40, 44, 52, 1)}
-.u-border-right{border-right:1px solid rgba(40, 44, 52, 1)}
+.u-border-bottom{border-bottom:1px solid var(--btn-background-color)}
+.u-border-top{border-top:1px solid var(--btn-background-color)}
+.u-border-left{border-left:1px solid var(--btn-background-color)}
+.u-border-right{border-right:1px solid var(--btn-background-color)}

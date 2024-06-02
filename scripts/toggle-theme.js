@@ -1,8 +1,10 @@
  const themeToogleBtn=document.getElementsByClassName('header__theme-toggle');
  const body_var = document.querySelector('body');
  const social_links=document.getElementsByClassName('ul-social-links');
+ const download_btn=document.getElementsByClassName('btn--download');
  var is_day=true;
 
+ 
  function theme_toggle(is_day){
     if (is_day){
         console.log('ThemeChanged: Night');
@@ -30,10 +32,15 @@
             </li>
              `
         });
+        download_btn[0].innerHTML=`
+                <img src="assets/img/night-download.svg">
+                Download CV`;
     }
     else{
         console.log('ThemeChanged: Day');
-
+        download_btn.innerHTML=`
+                <img src="assets/img/night-download.svg">
+                Download CV`;
         Array.from(social_links).forEach((ul)=>{
             ul.innerHTML=`
             <li> 
@@ -58,6 +65,9 @@
             </li>
             `
         });
+        download_btn[0].innerHTML=`
+                <img src="assets/img/download.svg">
+                Download CV`;
     }
  }
 

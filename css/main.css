@@ -153,16 +153,16 @@ body {
   text-align: center; }
 
 .u-border-bottom {
-  border-bottom: 1px solid #282c34; }
+  border-bottom: 1px solid var(--btn-background-color); }
 
 .u-border-top {
-  border-top: 1px solid #282c34; }
+  border-top: 1px solid var(--btn-background-color); }
 
 .u-border-left {
-  border-left: 1px solid #282c34; }
+  border-left: 1px solid var(--btn-background-color); }
 
 .u-border-right {
-  border-right: 1px solid #282c34; }
+  border-right: 1px solid var(--btn-background-color); }
 
 .row {
   display: flex;
@@ -182,10 +182,6 @@ body {
   .col2--tuku {
     background-image: url("../assets/img/tuku ternak 1.svg");
     background-size: cover; }
-
-ul-social-links {
-  margin: 1rem;
-  padding: 2rem; }
 
 @media only screen and (min-width: 500px) {
   .row {
