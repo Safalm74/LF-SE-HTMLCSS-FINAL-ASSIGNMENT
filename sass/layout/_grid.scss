@@ -1,0 +1,43 @@
+.row{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap; 
+    height: 100vh;
+    background-color: $color-background-day-header;
+    position: relative;
+}
+.col1,.col2
+{
+    &__showcase-img{
+        height: 100%;
+    }
+}
+.col1{
+    flex:2
+}
+.col2{
+    flex:1;
+    &--tuku{
+        background-image: url('../assets/img/tuku ternak 1.svg');
+        background-size: cover;
+    }
+
+}
+
+@media only screen and (min-width:769px){
+    .row{
+        margin: 4% 8%;
+        flex-direction: row;
+    }
+    .col1{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 5rem;
+    }
+    .col2{
+        flex:1;
+    }
+}

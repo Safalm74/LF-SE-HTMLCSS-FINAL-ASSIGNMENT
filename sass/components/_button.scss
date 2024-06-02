@@ -1,0 +1,21 @@
+.btn{
+    &--category{
+        position: absolute;
+        top:2vh;
+        left: 1rem;
+    }
+    &--center{
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    }
+}
+@media only screen and (min-width:769px){
+    .btn{
+        &--category{
+            position: static;
+        }
+    }
+}

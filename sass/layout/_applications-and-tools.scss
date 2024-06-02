@@ -1,0 +1,30 @@
+.application-and-tools{
+    &____wrapper{
+        display: flex;
+        &--bottom-border li:last-child{
+            border: none;
+        }
+
+    }
+}
+@media only screen and (min-width:769px){
+    .application-and-tools{
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &--bottom-border{
+                li{
+                    border: none;
+                }
+            }
+            ul{
+                display: flex;
+                li{
+                    flex:1
+                }
+            }
+        }
+    }
+}
