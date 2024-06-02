@@ -17,7 +17,15 @@
 .col2{
     flex:1;
     &--tuku{
-        background-image: url('../assets/img/tuku ternak 1.svg');
+        background-image: url('../assets/img/tuku1.svg');
+        background-size: cover;
+    }
+    &--eventid{
+        background-image: url('../assets/img/event2.svg');
+        background-size: cover;
+    }
+    &--medica{
+        background-image: url('../assets/img/medica1.svg');
         background-size: cover;
     }
 
@@ -27,6 +35,7 @@
     .row{
         flex-direction: row;
         overflow: hidden;
+        border-bottom: 1px solid var(--btn-background-color);
     }
     .col1{
         flex:1;

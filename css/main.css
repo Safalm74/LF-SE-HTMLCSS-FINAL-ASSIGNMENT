@@ -180,13 +180,20 @@ body {
 .col2 {
   flex: 1; }
   .col2--tuku {
-    background-image: url("../assets/img/tuku ternak 1.svg");
+    background-image: url("../assets/img/tuku1.svg");
+    background-size: cover; }
+  .col2--eventid {
+    background-image: url("../assets/img/event2.svg");
+    background-size: cover; }
+  .col2--medica {
+    background-image: url("../assets/img/medica1.svg");
     background-size: cover; }
 
 @media only screen and (min-width: 500px) {
   .row {
     flex-direction: row;
-    overflow: hidden; }
+    overflow: hidden;
+    border-bottom: 1px solid var(--btn-background-color); }
   .col1 {
     flex: 1;
     display: flex;
@@ -379,10 +386,15 @@ body {
 
 .topic-wrapper {
   display: flex;
-  padding: 1rem; }
+  padding: 1rem;
+  align-items: center; }
   .topic-wrapper__image {
-    box-shadow: 0 0 1.2rem 0.2rem black;
-    clip-path: circle(40% at 50% 50%); }
+    width: 100%; }
+  .topic-wrapper__frame {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    box-shadow: 0 0 1rem 0 black; }
 
 @media only screen and (min-width: 769px) {
   .topic-wrapper {
