@@ -4,14 +4,16 @@
   --header-font-color:black;
   --header-achor-color:rgba(48, 64, 229, 1);
   --body-font-color-primary:black;
-  --body-font-color-secondary:rgba(44,44,46,1); }
+  --body-font-color-secondary:rgba(44,44,46,1);
+  --btn-background-color:rgba(244, 246, 251, 1); }
 
 .night-theme {
   --header-background-color:black;
   --header-font-color:white;
   --header-achor-color:rgba(48, 64, 229, 1);
   --body-font-color-primary:white;
-  --body-font-color-secondary:rgba(255, 255, 255, 0.74); }
+  --body-font-color-secondary:rgba(255, 255, 255, 0.74);
+  --btn-background-color:rgba(40, 44, 52, 1); }
 
 *,
 *::after,
@@ -96,6 +98,12 @@ body {
   line-height: 62.17px;
   letter-spacing: .2rem; }
 
+.theme-toogle-icon {
+  font-size: 3rem;
+  margin: 0 2rem;
+  border: none;
+  background-color: transparent; }
+
 .u-margin-top-big {
   margin-top: 6rem; }
 
@@ -175,6 +183,10 @@ body {
     background-image: url("../assets/img/tuku ternak 1.svg");
     background-size: cover; }
 
+ul-social-links {
+  margin: 1rem;
+  padding: 2rem; }
+
 @media only screen and (min-width: 500px) {
   .row {
     flex-direction: row;
@@ -210,10 +222,13 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between; }
+  .header__dropdown-menu-btn {
+    display: flex;
+    background-color: transparent; }
   .header__dropdown-menu {
     position: absolute;
     right: 3.6rem;
-    top: 3.6rem;
+    top: 7.6rem;
     background-color: rgba(255, 255, 253, 0.2);
     box-shadow: 0 0.2rem 1.2rem 0.2rem rgba(0, 0, 0, 0.2);
     padding: 1.6rem;
@@ -234,9 +249,13 @@ body {
     .header__nav ul {
       display: none; }
       .header__nav ul li {
-        padding: 1rem 1.2rem; }
+        padding: .5rem 1.2rem;
+        border-radius: 3px; }
         .header__nav ul li:hover {
-          cursor: pointer; }
+          text-decoration: none;
+          cursor: pointer;
+          background-color: var(--body-background-color);
+          color: #a422be; }
   .header__social-links {
     display: inherit;
     list-style-type: none;
@@ -289,7 +308,8 @@ body {
 .footer__social-links {
   list-style-type: none;
   display: flex;
-  row-gap: 4rem; }
+  row-gap: 4rem;
+  margin-top: 1.2rem; }
 
 .btn {
   border-radius: 2rem;
@@ -322,6 +342,15 @@ body {
       background-color: white; }
     .btn--white:active {
       background-color: #e6e6e6; }
+  .btn--nav, .btn--nav:visited {
+    background-color: var(--btn-background-color);
+    color: var(--header-font-color);
+    border-radius: 1rem;
+    padding: .5rem 2rem;
+    margin: 2rem;
+    border: none; }
+    .btn--nav:active, .btn--nav:visited:active {
+      transform: scale(0.9) translateY(0.1rem); }
   .btn:hover {
     transform: scale(1.01) translateY(-0.5rem); }
   .btn:active {
@@ -384,6 +413,11 @@ body {
     transform: translate(3.5rem, -6.5rem); }
   .round-icon--top {
     z-index: 2; }
+
+.square-icon {
+  height: 4rem;
+  width: 4rem;
+  margin: 0 1.2rem; }
 
 .icon-img {
   border: none;

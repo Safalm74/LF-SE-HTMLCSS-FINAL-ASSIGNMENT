@@ -36,7 +36,18 @@
             background-color:rgba(230, 230, 230, 1);
         }
     }
+    &--nav ,&--nav:visited{
+        background-color: var(--btn-background-color);
+        color:var(--header-font-color);
+        border-radius: 1rem;
+        padding: .5rem 2rem;
+        margin: 2rem;
+        border: none;
+        &:active{
+            transform: scale(.9) translateY(.1rem);
+        }
 
+    }
 
     &:hover{
         transform: scale(1.01) translateY(-.5rem);
@@ -44,6 +55,7 @@
     &:active{
         transform: scale(.9) translateY(.1rem);
     }
+
 }
 @media only screen and (min-width:769px){
     .btn{
