@@ -1,6 +1,7 @@
 .header,
 .application-and-tools{
-    background-color: $color-background-day-header;
+    background-color: var(--header-background-color);
+}
+.header{
     height: 100vh;
-    overflow:scroll;
 }

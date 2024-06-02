@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column-reverse;
     height: 100vh;
-    background-color: $color-background-day-header;
+    background-color: var(--header-background-color);
     position: relative;
 }
 .col1,.col2

@@ -1,6 +1,25 @@
 html{
     font-size: 62.5%;
 }
+.header,
+.application-and-tools{
+    color: var(--header-font-color);
+}
+
+body{
+    color:var(--body-font-color-primary);
+}
+
+.header{
+    p{
+        color:var(--body-font-color-secondary);
+    }
+    a{
+        color: var(--header-achor-color);
+    }
+}
+
+
 .heading__secondary{
     font-family: Montserrat;
     font-size: 1.5rem;

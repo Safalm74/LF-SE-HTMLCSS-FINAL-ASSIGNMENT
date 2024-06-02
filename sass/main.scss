@@ -2,6 +2,10 @@
 //abstract
 @import 'abstract/mixins';
 @import 'abstract/variables';
+
+//theme
+@import 'theme/day-theme';
+@import 'theme/night-theme';
 //base
 @import 'base/base';
 @import 'base/animation';
@@ -13,7 +17,6 @@
 @import 'layout/header';
 @import 'layout/applications-and-tools';
 @import 'layout/footer';
-
 
 //components
 @import 'components/button';
