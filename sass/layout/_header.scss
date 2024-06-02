@@ -44,7 +44,8 @@
     &__social-links{
         display: inherit;
         list-style-type: none;
-        transform: translateY(-60%);
+        flex-wrap: wrap;
+        transform: translateY(-6rem);
     }
 }
 
@@ -56,7 +57,7 @@
             display: none;
         }
         &__nav{
-            position: fixed;
+            position: absolute;
             top:0;
 
             ul{
@@ -67,8 +68,10 @@
         &__summary{
             width: 70%;
         }
-
-        &__social-links{
+        &__btn-wrapper{
+            display: flex;
+            justify-content: center;
+            row-gap: 50rem;
         }
     }   
 }

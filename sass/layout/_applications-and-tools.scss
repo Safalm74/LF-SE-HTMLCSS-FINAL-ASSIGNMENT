@@ -1,5 +1,9 @@
 .application-and-tools{
-    &____wrapper{
+    height: auto;
+    z-index: -2;
+    &___wrapper{
+        height: auto;
+        overflow:visible;
         display: flex;
         &--bottom-border li:last-child{
             border: none;
@@ -9,6 +13,7 @@
 }
 @media only screen and (min-width:769px){
     .application-and-tools{
+        height: 100vh;
         &__wrapper{
             display: flex;
             flex-direction: column;

@@ -34,7 +34,7 @@
                 <li>Contact</li>
             </ul>
         </div>
-        <div class="header__summary ">
+        <div class="header__summary">
             <img 
             src="assets/img/PP Image 2 1.svg"
             alt="Profile image">
@@ -53,13 +53,16 @@
                 I’m from Indonesia and I have been working (Freelance) as a Software Development especially in the UI/UX Designer and Development for more than 2 year at
                  <a href="#">Panemu Indonesia company.</a>
             </p>
-            <button class="btn btn--blue u-margin-bottom-small">
+            <div class="header__btn-wrapper">
+                <button class="btn btn--blue u-margin-bottom-small">
                 Say hello
-            </button>
-            <div>
-                <i></i>
-                Download CV
+                </button>
+                <div class="btn--download">
+                    <i></i>
+                    Download CV
+                </div>
             </div>
+            
         </div>
         
         <ul class="header__social-links">
@@ -89,14 +92,17 @@
     <section class="tuku row">
         <div class="col1">
             <button class="btn btn--white btn--category">
-                <i>
-
-                </i>
-                Marketplace
+                <figure>
+                    <img src="assets/img/flat-color-icons_paid.svg">
+                </figure>
+                <span>
+                   Marketplace  
+                </span>
+               
             </button>
             <div class="topic-wrapper">
-                <figure class="topic-wrapper__image">
-                    <img src="assets/img/logotuku.svg">
+                <figure class="topic-wrapper__frame">
+                    <img src="assets/img/logotuku.svg" class="topic-wrapper__image">
                 </figure>
                 <h3 class="topic-heading--primary u-margin-left-small">
                     Tuku Ternak
@@ -110,47 +116,47 @@
                     <figure class="tools-used__item">
                         <img
                         alt="figma"
-                        src="assets/img/PP Image 2 1.svg"
+                        src="assets/img/tools-used2.svg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="tools-used__item">
+                        <img
+                        alt=""
+                        src="assets/img/tools-used1.svg">
                     </figure>
                 </li>
                 <li>
                     <figure class="tools-used__item">
                         <img
                         alt="figma"
-                        src="assets/img/PP Image 2 1.svg"
+                        src="assets/img/tools-used4.svg">
                     </figure>
                 </li>
                 <li>
                     <figure class="tools-used__item">
                         <img
                         alt="figma"
-                        src="assets/img/PP Image 2 1.svg"
+                        src="assets/img/tools-used3.svg">
                     </figure>
                 </li>
                 <li>
                     <figure class="tools-used__item">
                         <img
                         alt="figma"
-                        src="assets/img/PP Image 2 1.svg"
+                        src="assets/img/tools-used5.svg">
                     </figure>
                 </li>
                 <li>
                     <figure class="tools-used__item">
                         <img
                         alt="figma"
-                        src="assets/img/PP Image 2 1.svg"
-                    </figure>
-                </li>
-                <li>
-                    <figure class="tools-used__item">
-                        <img
-                        alt="figma"
-                        src="assets/img/PP Image 2 1.svg"
+                        src="assets/img/tools-used6.svg">
                     </figure>
                 </li>
             </ul>
-            <div>
-                <button class="btn btn--blue u-margin-top-medium btn--center">
+            <div class="btn--center">
+                <button class="btn btn--blue u-margin-top-medium">
                     Study case
                 </button>
             </div>
@@ -160,14 +166,14 @@
     </section>
     <!--application and tools-->
     <section class="application-and-tools">
-        <h3 class="topic-heading--primary u-text-center">
+        <h3 class="topic-heading--primary u-text-center u-margin-bottom-big">
             Application and Tools
         </h3>
         <div class="application-and-tools__wrapper u-padding-small">
             <ul>
                 <li class="u-padding-bottom-medium u-border-bottom u-margin-top-small">
                     <figure class="round-icon">
-                        <img src="assets/img/PP Image 2 1.svg">
+                        <img src="assets/img/tools-used2.svg" class="icon-img">
                     </figure>
                     <h4 class="topic-heading--secondary">
                         Figma
@@ -178,7 +184,7 @@
                 </li>
                 <li class="u-padding-bottom-medium u-border-bottom u-margin-top-small">
                     <figure class="round-icon">
-                        <img src="assets/img/PP Image 2 1.svg">
+                        <img src="assets/img/tools-used1.svg" class="icon-img">
                     </figure>
                     <h4 class="topic-heading--secondary">
                         Figma
@@ -189,7 +195,7 @@
                 </li>
                 <li class="u-padding-bottom-medium u-border-bottom u-margin-top-small">
                     <figure class="round-icon">
-                        <img src="assets/img/PP Image 2 1.svg">
+                        <img src="assets/img/tools-used4.svg" class="icon-img">
                     </figure>
                     <h4 class="topic-heading--secondary">
                         Figma
@@ -200,9 +206,10 @@
                 </li>
             </ul>
             <ul class='application-and-tools__wrapper--bottom-border'>
+                
                 <li class="u-padding-bottom-medium u-border-bottom u-margin-top-small">
                     <figure class="round-icon">
-                        <img src="assets/img/PP Image 2 1.svg">
+                        <img src="assets/img/tools-used3.svg" class="icon-img">
                     </figure>
                     <h4 class="topic-heading--secondary">
                         Figma
@@ -213,7 +220,7 @@
                 </li>
                 <li class="u-padding-bottom-medium u-border-bottom u-margin-top-small">
                     <figure class="round-icon">
-                        <img src="assets/img/PP Image 2 1.svg">
+                        <img src="assets/img/tools-used5.svg" class="icon-img">
                     </figure>
                     <h4 class="topic-heading--secondary">
                         Figma
@@ -223,9 +230,14 @@
                         figma karena dapat bekerja Tim</p>
                 </li>
                 <li class="u-padding-bottom-medium u-border-bottom u-margin-top-small">
-                    <figure class="round-icon">
-                        <img src="assets/img/PP Image 2 1.svg">
-                    </figure>
+                    <div style="position: relative;">
+                        <figure class="round-icon round-icon--top">
+                            <img src="assets/img/tools-used7.png" class="icon-img">
+                        </figure> 
+                        <figure class="round-icon round-icon--smaller">
+                            <img src="assets/img/github-mark.png" class="icon-img icon-img--behind">
+                        </figure>
+                    </div>
                     <h4 class="topic-heading--secondary">
                         Figma
                     </h4>
