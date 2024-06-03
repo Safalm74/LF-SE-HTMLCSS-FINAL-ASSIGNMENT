@@ -1,53 +1,116 @@
 //margin
-.u-margin-top-big{margin-top: 6rem;}
-.u-margin-top-medium{margin-top: 3rem;}
-.u-margin-top-small{margin-top: 1rem;}
+.u-margin-top-big {
+    margin-top: 6rem;
+}
 
-.u-margin-bottom-big{margin-bottom: 6rem;}
-.u-margin-bottom-medium{margin-bottom: 3rem;}
-.u-margin-bottom-small{margin-bottom: 1rem;}
+.u-margin-top-medium {
+    margin-top: 3rem;
+}
 
-.u-margin-left-big{margin-left: 6rem;}
-.u-margin-left-medium{margin-left: 3rem;}
-.u-margin-left-small{margin-left: 1rem;}
+.u-margin-top-small {
+    margin-top: 1rem;
+}
+
+.u-margin-bottom-big {
+    margin-bottom: 6rem;
+}
+
+.u-margin-bottom-medium {
+    margin-bottom: 3rem;
+}
+
+.u-margin-bottom-small {
+    margin-bottom: 1rem;
+}
+
+.u-margin-left-big {
+    margin-left: 6rem;
+}
+
+.u-margin-left-medium {
+    margin-left: 3rem;
+}
+
+.u-margin-left-small {
+    margin-left: 1rem;
+}
 
 
 //padding
-.u-padding-big{padding: 6rem;}
-.u-padding-medium{padding: 3rem;}
-.u-padding-small{padding: 1rem;}
+.u-padding-big {
+    padding: 6rem;
+}
 
-.u-padding-bottom-big{padding-bottom: 6rem;}
-.u-padding-bottom-medium{padding-bottom: 3rem;}
-.u-padding-bottom-small{padding-bottom: 1rem;}
+.u-padding-medium {
+    padding: 3rem;
+}
 
-.u-padding-left-right-big{padding: 0 6rem;}
-.u-padding-left-right-medium{padding: 0 3rem;}
-.u-padding-left-right-small{padding:0 1rem;}
+.u-padding-small {
+    padding: 1rem;
+}
+
+.u-padding-bottom-big {
+    padding-bottom: 6rem;
+}
+
+.u-padding-bottom-medium {
+    padding-bottom: 3rem;
+}
+
+.u-padding-bottom-small {
+    padding-bottom: 1rem;
+}
+
+.u-padding-left-right-big {
+    padding: 0 6rem;
+}
+
+.u-padding-left-right-medium {
+    padding: 0 3rem;
+}
+
+.u-padding-left-right-small {
+    padding: 0 1rem;
+}
 
 
 //alignment
-.u-text-center{text-align: center;}
+.u-text-center {
+    text-align: center;
+}
 
 //border
-.u-border-bottom{border-bottom:1px solid var(--btn-background-color)}
-.u-border-top{border-top:1px solid var(--btn-background-color)}
-.u-border-left{border-left:1px solid var(--btn-background-color)}
-.u-border-right{border-right:1px solid var(--btn-background-color)}
+.u-border-bottom {
+    border-bottom: 1px solid var(--btn-background-color)
+}
+
+.u-border-top {
+    border-top: 1px solid var(--btn-background-color)
+}
+
+.u-border-left {
+    border-left: 1px solid var(--btn-background-color)
+}
+
+.u-border-right {
+    border-right: 1px solid var(--btn-background-color)
+}
 
 //hover
-.u-hover-scale-box-shadow{
+.u-hover-scale-box-shadow {
     transition: all .5s;
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
-    &:hover{
-        transform: scale(1.01) ;
+
+    &:hover {
+        transform: scale(1.01);
         cursor: pointer;
         border: 1px solid rgb(185, 178, 178);
         border-radius: 3px;
         @include boxshadow;
     }
-    &:active{
-        transform: scale(.99) ;
+
+    &:active {
+        transform: scale(.99);
     }
 }

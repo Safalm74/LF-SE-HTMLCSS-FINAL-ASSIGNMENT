@@ -1,10 +1,11 @@
-.btn{
+.btn {
     border-radius: 2rem;
     border: none;
     cursor: pointer;
-    box-shadow: 0 .2rem .8rem .2rem rgba(20, 1, 1,.1);
-    transition:all .2s;
-    &--download{
+    box-shadow: 0 .2rem .8rem .2rem rgba(20, 1, 1, .1);
+    transition: all .2s;
+
+    &--download {
         margin: 0 3rem;
         display: flex;
         align-items: center;
@@ -12,68 +13,79 @@
         border: 1px solid transparent;
         padding: 1rem;
         border-radius: 2rem;
-        &:hover{
+
+        &:hover {
             background-color: var(--btn-background-color);
             cursor: pointer;
         }
     }
-    &--category{
+
+    &--category {
         position: absolute;
-        top:2vh;
+        top: 2vh;
         left: 1rem;
     }
-    &--center{
+
+    &--center {
         display: flex;
         justify-content: center;
     }
-    &--blue{
+
+    &--blue {
         padding: .5rem 2rem;
-        background-color:rgba(48, 64, 229, 1);
-        color:$color-white;
-        box-shadow: 0 .2rem .1rem .2rem rgba(20, 1, 1,.4);
+        background-color: rgba(48, 64, 229, 1);
+        color: $color-white;
+        box-shadow: 0 .2rem .1rem .2rem rgba(20, 1, 1, .4);
         align-self: center;
     }
 
-    &--white{
-        background-color:$color-grey;
-        border:1px solid $color-grey;
-        color:black ;
+    &--white {
+        background-color: $color-grey;
+        border: 1px solid $color-grey;
+        color: black;
         display: flex;
         justify-content: baseline;
         align-items: center;
-        gap:.5rem;
+        gap: .5rem;
         padding: .2rem;
-        &:hover{
-            background-color:$color-white;
+
+        &:hover {
+            background-color: $color-white;
         }
-        &:active{
-            background-color:$color-grey;
+
+        &:active {
+            background-color: $color-grey;
         }
     }
-    &--nav ,&--nav:visited{
+
+    &--nav,
+    &--nav:visited {
         background-color: var(--btn-background-color);
-        color:var(--header-font-color);
+        color: var(--header-font-color);
         border-radius: 1rem;
         padding: .5rem 2rem;
         margin: 2rem;
         border: none;
-        &:active{
+
+        &:active {
             transform: scale(.9) translateY(.1rem);
         }
 
     }
 
-    &:hover{
+    &:hover {
         transform: scale(1.01) translateY(-.5rem);
     }
-    &:active{
+
+    &:active {
         transform: scale(.9) translateY(.1rem);
     }
 
 }
-@media only screen and (min-width:769px){
-    .btn{
-        &--category{
+
+@media only screen and (min-width:769px) {
+    .btn {
+        &--category {
             position: static;
         }
     }

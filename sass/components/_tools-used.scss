@@ -1,27 +1,29 @@
-.tools-used{
+.tools-used {
     display: flex;
     list-style-type: none;
     align-items: center;
     padding: 0 1rem;
-    li{
+
+    li {
         padding-right: 2rem;
     }
-    &__item-cemter{
+
+    &__item-cemter {
         justify-content: space-between;
     }
 }
 
-@media only screen and (min-width:300px){
-    .tools-used{
+@media only screen and (min-width:300px) {
+    .tools-used {
         width: 100%;
         justify-content: flex-start;
     }
 }
 
-@media only screen and (min-width:769px){
-    .tools-used{
+@media only screen and (min-width:769px) {
+    .tools-used {
         padding: 0;
         width: 60%;
-        justify-content:flex-start;
+        justify-content: flex-start;
     }
 }

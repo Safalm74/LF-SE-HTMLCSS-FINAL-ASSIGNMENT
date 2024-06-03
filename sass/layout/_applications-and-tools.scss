@@ -1,35 +1,41 @@
-.application-and-tools{
+.application-and-tools {
     height: auto;
     z-index: -2;
     padding: .5rem;
-    &___wrapper{
+
+    &___wrapper {
         height: auto;
-        overflow:visible;
+        overflow: visible;
         display: flex;
-        &--bottom-border li:last-child{
+
+        &--bottom-border li:last-child {
             border: none;
         }
 
     }
 }
-@media only screen and (min-width:$min-width-large){
-    .application-and-tools{
+
+@media only screen and (min-width:$min-width-large) {
+    .application-and-tools {
         height: 100vh;
         padding: 2.5rem;
-        &__wrapper{
+
+        &__wrapper {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
 
-            &--bottom-border{
-                li{
+            &--bottom-border {
+                li {
                     border: none;
                 }
             }
-            ul{
+
+            ul {
                 display: flex;
-                li{
-                    flex:1;
+
+                li {
+                    flex: 1;
                     padding: 1.5rem 2.5rem;
                     margin: 1;
                 }
@@ -37,4 +43,3 @@
         }
     }
 }
-

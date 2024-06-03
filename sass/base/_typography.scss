@@ -1,97 +1,108 @@
-html{
+html {
     font-size: 62.5%;
 }
+
 .header,
-.application-and-tools{
+.application-and-tools {
     color: var(--header-font-color);
 }
 
-body{
-    color:var(--body-font-color-primary);
+body {
+    color: var(--body-font-color-primary);
     font-family: "Montserrat", sans-serif;
     font-size: $default-font-size;
     font-weight: $default-font-weight;
     line-height: $default-line-height;
 }
 
-.header{
-    p{
-        color:var(--body-font-color-secondary);
+.header {
+    p {
+        color: var(--body-font-color-secondary);
     }
-    a{
+
+    a {
         color: var(--header-achor-color);
     }
 }
 
-.heading{
-    &__secondary{
+.heading {
+    &__secondary {
         font-size: $default-heading-secondary-font-size;
         font-weight: $default-heading-secondary-font-weight;
         line-height: $default-heading-secondary-line-height;
         letter-spacing: 0.005rem;
     }
-    &__primary{
+
+    &__primary {
         font-size: $default-heading-primary-font-size;
         line-height: $default-heading-primary-line-height;
         font-weight: $default-heading-primary-font-weight;
-        letter-spacing:.06rem ;
+        letter-spacing: .06rem;
     }
 }
-.topic-heading--primary{
+
+.topic-heading--primary {
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 62.17px;
     letter-spacing: .2rem;
 }
-.topic-heading--secondary{
+
+.topic-heading--secondary {
     font-weight: 500;
     line-height: 24.18px;
     letter-spacing: 0.015em;
 }
-.btn-font{
+
+.btn-font {
     font-family: Roboto;
     font-weight: 500;
     line-height: 2rem;
-    letter-spacing: 0.055em;}
+    letter-spacing: 0.055em;
+}
 
-.footer-font{
+.footer-font {
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 6.2rem;
     letter-spacing: .2rem;
-    }
+}
 
-.theme-toogle-icon{
+.theme-toogle-icon {
     font-size: 2rem;
     margin-left: 2rem;
-    border:none;
+    border: none;
     background-color: transparent;
     cursor: pointer;
 }
-@media only screen and (min-width:$min-width-small){
-    .heading{
-        &__secondary{
+
+@media only screen and (min-width:$min-width-small) {
+    .heading {
+        &__secondary {
             font-size: $medium-heading-secondary-font-size;
         }
-        &__primary{
+
+        &__primary {
             font-size: $medium-heading-primary-font-size;
             line-height: $medium-heading-primary-line-height;
         }
     }
 }
 
-@media only screen and (min-width:$min-width-large){
-    .heading{
-        &__secondary{
+@media only screen and (min-width:$min-width-large) {
+    .heading {
+        &__secondary {
             font-size: $large-heading-secondary-font-size;
         }
-        &__primary{
+
+        &__primary {
             font-size: $large-heading-primary-font-size;
             line-height: $large-heading-primary-line-height;
         }
     }
-    .theme-toogle-icon{
+
+    .theme-toogle-icon {
         font-size: 3rem;
-        margin:0 2rem;
+        margin: 0 2rem;
     }
 }
