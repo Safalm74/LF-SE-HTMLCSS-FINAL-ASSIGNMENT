@@ -1,6 +1,7 @@
 .application-and-tools{
     height: auto;
     z-index: -2;
+    padding: .5rem;
     &___wrapper{
         height: auto;
         overflow:visible;
@@ -11,9 +12,10 @@
 
     }
 }
-@media only screen and (min-width:769px){
+@media only screen and (min-width:$min-width-large){
     .application-and-tools{
         height: 100vh;
+        padding: 2.5rem;
         &__wrapper{
             display: flex;
             flex-direction: column;
@@ -27,9 +29,12 @@
             ul{
                 display: flex;
                 li{
-                    flex:1
+                    flex:1;
+                    padding: 1.5rem 2.5rem;
+                    margin: 1;
                 }
             }
         }
     }
 }
+

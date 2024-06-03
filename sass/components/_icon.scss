@@ -7,10 +7,10 @@
     width: 5rem;
     border-radius: 50%;
     border: none;
-    background-color: $color-background-day-body;
+    background-color: rgba(244, 246, 251, 1);
     margin:1rem .2rem;
     padding: 1rem;
-    box-shadow: 0 3px 3px 3px rgba(0,0,0,.1);
+    @include boxshadow;
     position: relative;
     &--smaller{
         position: absolute;
@@ -21,11 +21,14 @@
     &--top{
         z-index: 2;
     }
+    &:hover{
+        transform: scale(1.01);
+    }
 
 }
 .square-icon{
-    height: 4rem;
-    width: 4rem;
+    height: 2.4rem;
+    width: 2.4rem;
     margin: 0 1.2rem;
 }
 .icon-img{

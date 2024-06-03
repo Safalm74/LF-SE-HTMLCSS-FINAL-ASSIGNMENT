@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML & CSS Final Assignment</title>
     <link rel="stylesheet" href="css/main.css">
+    <!--mone-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--roboto font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 
 </head>
@@ -30,12 +38,13 @@
 
         <div class="header__dropdown-menu">
             <ul>
-                <li>About</li>
-                <li>Work</li>
-                <li>Contact</li>
+                <li class="btn--nav" >About</li>
+                <li class="btn--nav" >Work</li>
+                <li class="btn--nav" >Contact</li>
             </ul>
         </div>
         <div class="header__summary">
+        <div >
             <img 
             src="assets/img/PP Image 2 1.svg"
             alt="Profile image">
@@ -47,15 +56,16 @@
                     UI/UX Designer and 
                 </h1>
                 <h1 class="heading__primary">
-                    Software Development
+                    Software Development 
+                    <i class="fa-brands fa-instagram"></i>
                 </h1>
             </div>
             <p class="u-margin-bottom-small u-margin-top-small">
                 I’m from Indonesia and I have been working (Freelance) as a Software Development especially in the UI/UX Designer and Development for more than 2 year at
                 <a href="#">Panemu Indonesia company.</a>
             </p>
-            <div class="header__btn-wrapper">
-                <button class="btn btn--blue u-margin-bottom-small">
+            <div class="header__btn-wrapper u-margin-top-medium">
+                <button class="btn btn--blue u-margin-bottom-small btn-font">
                 Say hello
                 </button>
                 <div class="btn--download">
@@ -64,6 +74,7 @@
                 </div>
             </div> 
         </div>
+    </div>
         <ul class="header__social-links ul-social-links">
             <li> 
                 <figure class="square-icon">
@@ -109,9 +120,9 @@
             <p class="u-margin-top-medium u-padding-small">
                 Tuku Ternak is an application that is engaged in animal husbandry e-commerce (selling various livestock products) that applies business concepts and empowerment of breeders and MSMEs.
             </p>
-            <ul class="tools-used u-margin-top-medium">
+            <ul class="tools-used u-margin-top-medium tools-used__item-cemter">
                 <li>
-                    <figure class="tools-used__item">
+                    <figure class="tools-used__item ">
                         <img
                         alt="figma"
                         src="assets/img/tools-used2.svg">
@@ -154,7 +165,7 @@
                 </li>
             </ul>
             <div class="btn--center">
-                <button class="btn btn--blue u-margin-top-medium">
+                <button class="btn btn--blue u-margin-top-medium btn-font">
                     Study case
                 </button>
             </div>
@@ -166,7 +177,7 @@
        <!--Event-->
        <section class="event row">
         <div class="col1">
-            <button class="btn btn--white btn--category">
+            <button class="btn btn--white btn--category btn-font">
                 <figure>
                     <img src="assets/img/event3.svg">
                 </figure>
@@ -183,7 +194,7 @@
                 </h3>
             </div>
             <p class="u-margin-top-medium u-padding-small">
-                TEvent Id is a Ticketing Management Service (TMS) superior technology in supporting all event organizers from distribution & ticket management, to providing event analysis reports at the end of the event. </p>
+                Event Id is a Ticketing Management Service (TMS) superior technology in supporting all event organizers from distribution & ticket management, to providing event analysis reports at the end of the event. </p>
             <ul class="tools-used u-margin-top-medium">
                 <li>
                     <figure class="tools-used__item">
@@ -263,7 +274,7 @@
                     </figure>
                 </li>
             </ul>
-            <div class="btn--center">
+            <div class="btn--center btn-font">
                 <button class="btn btn--blue u-margin-top-medium">
                     Study case
                 </button>
@@ -274,13 +285,16 @@
     </section>
     
     <!--application and tools-->
-    <section class="application-and-tools">
+    <section class="application-and-tools u-padding-left-right-big">
         <h3 class="topic-heading--primary u-text-center u-margin-bottom-big">
             Application and Tools
         </h3>
         <div class="application-and-tools__wrapper u-padding-small">
             <ul>
-                <li class="u-padding-bottom-medium u-border-bottom u-margin-top-small">
+                <li class="u-padding-bottom-medium 
+                    u-border-bottom 
+                    u-margin-top-small
+                    u-hover-scale-box-shadow">
                     <figure class="round-icon">
                         <img src="assets/img/tools-used2.svg" class="icon-img">
                     </figure>
@@ -291,8 +305,11 @@
                         My primary design tool right now.Saya memilih mengunakan 
                         figma karena dapat bekerja Tim</p>
                 </li>
-                <li class="u-padding-bottom-medium u-border-bottom u-margin-top-small">
-                    <figure class="round-icon">
+                
+                <li class="u-padding-bottom-medium 
+                    u-border-bottom 
+                    u-margin-top-small
+                    u-hover-scale-box-shadow">   <figure class="round-icon">
                         <img src="assets/img/tools-used1.svg" class="icon-img">
                     </figure>
                     <h4 class="topic-heading--secondary">
@@ -302,8 +319,11 @@
                         My primary design tool right now.Saya memilih mengunakan 
                         figma karena dapat bekerja Tim</p>
                 </li>
-                <li class="u-padding-bottom-medium u-border-bottom u-margin-top-small">
-                    <figure class="round-icon">
+                
+                <li class="u-padding-bottom-medium 
+                    u-border-bottom 
+                    u-margin-top-small
+                    u-hover-scale-box-shadow">   <figure class="round-icon">
                         <img src="assets/img/tools-used4.svg" class="icon-img">
                     </figure>
                     <h4 class="topic-heading--secondary">
@@ -316,8 +336,11 @@
             </ul>
             <ul class='application-and-tools__wrapper--bottom-border'>
                 
-                <li class="u-padding-bottom-medium u-border-bottom u-margin-top-small">
-                    <figure class="round-icon">
+                
+                <li class="u-padding-bottom-medium 
+                    u-border-bottom 
+                    u-margin-top-small
+                    u-hover-scale-box-shadow">  <figure class="round-icon">
                         <img src="assets/img/tools-used3.svg" class="icon-img">
                     </figure>
                     <h4 class="topic-heading--secondary">
@@ -327,9 +350,12 @@
                         My primary design tool right now.Saya memilih mengunakan 
                         figma karena dapat bekerja Tim</p>
                 </li>
-                <li class="u-padding-bottom-medium u-border-bottom u-margin-top-small">
-                    <figure class="round-icon">
-                        <img src="assets/img/tools-used5.svg" class="icon-img">
+                
+                <li class="u-padding-bottom-medium 
+                    u-border-bottom 
+                    u-margin-top-small
+                    u-hover-scale-box-shadow">   <figure class="round-icon">
+                        <img src="assets/img/vscode.svg " class="icon-img">
                     </figure>
                     <h4 class="topic-heading--secondary">
                         VS Code
@@ -338,8 +364,10 @@
                         My primary design tool right now.Saya memilih mengunakan 
                         figma karena dapat bekerja Tim</p>
                 </li>
-                <li class="u-padding-bottom-medium u-border-bottom u-margin-top-small">
-                    <div style="position: relative;">
+                
+                <li class="u-padding-bottom-medium 
+                    u-margin-top-small
+                    u-hover-scale-box-shadow">   <div style="position: relative;">
                         <figure class="round-icon round-icon--top">
                             <img src="assets/img/tools-used7.png" class="icon-img">
                         </figure> 
@@ -357,7 +385,8 @@
             </ul>
         </div> 
     </section>
-    <footer class="u-padding-small">
+    <!--footer-->
+    <footer class="footer">
             <h5 class="footer-font">
             Let's get in touch
             </h5>

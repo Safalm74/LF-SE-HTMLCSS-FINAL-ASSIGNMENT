@@ -11,7 +11,7 @@
         position: absolute;
         right:3.6rem;
         top:7.6rem;
-        background-color: rgba(255, 255, 253, 0.2);
+        background-color: var(--btn-background-color);
         box-shadow: 0 .2rem 1.2rem .2rem rgba(0, 0, 0,0.2);
         padding: 1.6rem;
         border-radius: 3px;
@@ -26,11 +26,11 @@
     }
     &__summary{
         text-align: center;
+        transform: translateY(-6rem);
     }
     &__nav{
         display: inherit;
         width: 100%;
-        z-index: 3;
         justify-content: space-between;
         ul{
             display: none;
@@ -38,13 +38,6 @@
             li{
                 padding: .5rem 1.2rem;
                 border-radius: 3px;
-                
-                &:hover{
-                    text-decoration: none;
-                    cursor: pointer;
-                    background-color: var(--body-background-color);
-                    color: rgb(164, 34, 190);
-                }
             }
         }
     }
@@ -52,20 +45,43 @@
         display: inherit;
         list-style-type: none;
         flex-wrap: wrap;
-        transform: translateY(-6rem);
+        margin-bottom: 1rem;
+    }
+    &__btn-wrapper{
+        align-items: center;
     }
 }
 
-@media only screen and (min-width:769px){
+@media only screen and (min-width:$min-width-medium){
+
+    .header{
+
+        &__nav{
+            background-color:var(--header-nav-color);
+            margin-bottom: 20rem;
+        }
+        justify-content: flex-start;
+        &__summary{
+            transform: translateY(0);
+            margin-bottom: 5rem;
+        }
+        &__btn-wrapper{
+            display: flex;
+            justify-content: center;
+        }
+    }   
+}
+@media only screen and (min-width:$min-width-large){
+    
     .header{
         position: relative;
-        justify-content:space-evenly;
+
+        justify-content: flex-start;
         &__dropdown-menu-btn{
             display: none;
         }
         &__nav{
-            position: absolute;
-            top:0;
+            margin-bottom: 4rem;
 
             ul{
                 display: flex;
@@ -73,12 +89,16 @@
             }
         }
         &__summary{
-            width: 70%;
+            width: 60%;
+            transform: translateY(0);
+            margin-bottom: 5rem;
         }
         &__btn-wrapper{
             display: flex;
             justify-content: center;
-            row-gap: 50rem;
         }
-    }   
+        &__dropdown-menu--active{
+            display: none;
+        }
+    } 
 }
