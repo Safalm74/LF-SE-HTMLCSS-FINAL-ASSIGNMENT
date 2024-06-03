@@ -95,7 +95,8 @@ body {
   font-size: 2rem;
   margin-left: 2rem;
   border: none;
-  background-color: transparent; }
+  background-color: transparent;
+  cursor: pointer; }
 
 @media only screen and (min-width: 400px) {
   .heading__secondary {
@@ -112,8 +113,7 @@ body {
     line-height: 8.5rem; }
   .theme-toogle-icon {
     font-size: 3rem;
-    margin: 0 2rem;
-    transform: translateY(-1rem); } }
+    margin: 0 2rem; } }
 
 .u-margin-top-big {
   margin-top: 6rem; }
@@ -494,6 +494,8 @@ body {
     z-index: 2; }
   .round-icon:hover {
     transform: scale(1.01); }
+  .round-icon--white {
+    background-color: white; }
 
 .square-icon {
   height: 2.4rem;

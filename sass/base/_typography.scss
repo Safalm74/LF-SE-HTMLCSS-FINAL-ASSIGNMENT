@@ -66,6 +66,7 @@ body{
     margin-left: 2rem;
     border:none;
     background-color: transparent;
+    cursor: pointer;
 }
 @media only screen and (min-width:$min-width-small){
     .heading{
@@ -92,6 +93,5 @@ body{
     .theme-toogle-icon{
         font-size: 3rem;
         margin:0 2rem;
-        transform: translateY(-1rem);
     }
 }
