@@ -423,7 +423,8 @@ body {
     background-color: #3040e5;
     color: white;
     box-shadow: 0 0.2rem 0.1rem 0.2rem rgba(20, 1, 1, 0.4);
-    align-self: center; }
+    align-self: center;
+    text-transform: uppercase; }
   .btn--white {
     background-color: white;
     border: 1px solid #e6e6e6;
