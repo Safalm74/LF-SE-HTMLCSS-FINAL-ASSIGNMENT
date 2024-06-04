@@ -39,6 +39,7 @@
         width: 100%;
         justify-content: space-between;
         margin-bottom: 5rem;
+        padding: 1rem;
 
         ul {
             display: none;
@@ -54,7 +55,7 @@
         display: inherit;
         list-style-type: none;
         flex-wrap: wrap;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
     }
 
     &__btn-wrapper {
@@ -67,7 +68,6 @@
     .header {
         display: flex;
         flex-direction: column;
-
         justify-content: flex-start;
 
         &__social-links {

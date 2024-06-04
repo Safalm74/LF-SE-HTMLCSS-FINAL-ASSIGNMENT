@@ -13,6 +13,7 @@
         border: 1px solid transparent;
         padding: 1rem;
         border-radius: 2rem;
+        transform: translateY(-.5rem);
 
         &:hover {
             background-color: var(--btn-background-color);
@@ -24,6 +25,9 @@
         position: absolute;
         top: 2vh;
         left: 1rem;
+        & figure{
+            transform: translateY(.5rem);
+        }
     }
 
     &--center {
