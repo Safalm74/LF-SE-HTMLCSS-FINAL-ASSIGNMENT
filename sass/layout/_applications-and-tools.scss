@@ -43,7 +43,9 @@
                 }
             }
 
-            ul {
+           
+        }
+        &__list{
                 display: flex;
 
                 li {
@@ -51,7 +53,7 @@
                     padding: 1.5rem 2.5rem;
                     margin: 1;
                 }
-            }
         }
+    
     }
 }

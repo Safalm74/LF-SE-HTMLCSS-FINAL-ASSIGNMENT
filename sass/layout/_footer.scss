@@ -1,16 +1,12 @@
-.footer {
-    padding: 1rem;
 
-    &__social-links {
-        list-style-type: none;
-        display: flex;
-        row-gap: 4rem;
-        margin-top: 1.2rem;
-    }
-}
 
 @media only screen and (min-width:$min-width-large-grid) {
     .footer {
         padding: 6rem;
+
+        &__wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
     }
 }

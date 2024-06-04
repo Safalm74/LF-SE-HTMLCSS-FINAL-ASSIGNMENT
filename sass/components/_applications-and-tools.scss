@@ -1,0 +1,24 @@
+application-and-tools {
+    &__footer{
+        background-color: var(--btn-background-color);
+        text-align: center;
+        transition: all .5s;
+        &:hover{
+            transform: scale(1.01);
+            @include boxshadow;
+        }
+    }
+
+    &___wrapper {
+        height: auto;
+        overflow: visible;
+        display: flex;
+
+        &--bottom-border li:last-child {
+            border: none;
+        }
+
+    }
+    
+
+}

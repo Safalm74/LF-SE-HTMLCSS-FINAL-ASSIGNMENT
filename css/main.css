@@ -221,7 +221,7 @@ body {
 .col1 {
   flex: 2;
   padding: 1rem; }
-  .col1 p {
+  .col1__description {
     padding-left: 0; }
 
 .col2 {
@@ -310,10 +310,11 @@ body {
 
 @media only screen and (min-width: 750px) {
   .header {
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start; }
-    .header__nav {
-      background-color: var(--header-nav-color);
-      margin-bottom: 20rem; }
+    .header__social-links {
+      margin-bottom: 10rem; }
     .header__summary {
       transform: translateY(0);
       margin-bottom: 5rem; }
@@ -341,7 +342,9 @@ body {
       display: flex;
       justify-content: center; }
     .header__dropdown-menu--active {
-      display: none; } }
+      display: none; }
+    .header__social-links {
+      margin-bottom: 15rem; } }
 
 .application-and-tools {
   height: auto;
@@ -372,24 +375,19 @@ body {
       justify-content: space-between; }
       .application-and-tools__wrapper--bottom-border li {
         border: none; }
-      .application-and-tools__wrapper ul {
-        display: flex; }
-        .application-and-tools__wrapper ul li {
-          flex: 1;
-          padding: 1.5rem 2.5rem;
-          margin: 1; } }
-
-.footer {
-  padding: 1rem; }
-  .footer__social-links {
-    list-style-type: none;
-    display: flex;
-    row-gap: 4rem;
-    margin-top: 1.2rem; }
+    .application-and-tools__list {
+      display: flex; }
+      .application-and-tools__list li {
+        flex: 1;
+        padding: 1.5rem 2.5rem;
+        margin: 1; } }
 
 @media only screen and (min-width: 1008px) {
   .footer {
-    padding: 6rem; } }
+    padding: 6rem; }
+    .footer__wrapper {
+      display: flex;
+      justify-content: space-between; } }
 
 .btn {
   border-radius: 2rem;
@@ -457,7 +455,7 @@ body {
   list-style-type: none;
   align-items: center;
   padding: 0 1rem; }
-  .tools-used li {
+  .tools-used__list {
     padding-right: 2rem; }
   .tools-used__item-cemter {
     justify-content: space-between; }
@@ -525,9 +523,14 @@ body {
   height: 100%;
   object-fit: fill; }
 
+.footer {
+  padding: 1rem; }
+  .footer__social-links {
+    list-style-type: none;
+    display: flex;
+    row-gap: 4rem;
+    margin-top: 1.2rem; }
+
 .header,
 .application-and-tools {
   background-color: var(--header-background-color); }
-
-.header {
-  height: 100vh; }
