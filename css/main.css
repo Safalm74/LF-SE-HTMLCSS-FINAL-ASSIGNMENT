@@ -294,7 +294,8 @@ body {
   .header__nav {
     display: inherit;
     width: 100%;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-bottom: 5rem; }
     .header__nav ul {
       display: none; }
       .header__nav ul li {
