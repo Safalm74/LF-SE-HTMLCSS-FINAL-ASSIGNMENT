@@ -11,22 +11,22 @@ function theme_toggle(is_day) {
         Array.from(social_links).forEach((ul) => {
             ul.innerHTML = `
             <li> 
-                <figure class="square-icon">
+                <figure class="square-icon u-hover-scale-box-shadow">
                     <img src="assets/img/night-social-links1.svg" class="icon-img">
                 </figure>
             </li>
             <li> 
-                <figure class="square-icon">
+                <figure class="square-icon u-hover-scale-box-shadow">
                     <img src="assets/img/night-social-links4.svg" class="icon-img">
                 </figure>
             </li>
             <li> 
-                <figure class="square-icon">
+                <figure class="square-icon u-hover-scale-box-shadow">
                     <img src="assets/img/night-social-links2.svg" class="icon-img">
                 </figure>
             </li>
             <li> 
-                <figure class="square-icon">
+                <figure class="square-icon u-hover-scale-box-shadow">
                     <img src="assets/img/night-social-links3.svg" class="icon-img">
                 </figure>
             </li>
@@ -44,22 +44,22 @@ function theme_toggle(is_day) {
         Array.from(social_links).forEach((ul) => {
             ul.innerHTML = `
             <li> 
-                <figure class="square-icon">
+                <figure class="square-icon u-hover-scale-box-shadow">
                     <img src="assets/img/social-links1.svg" class="icon-img">
                 </figure>
             </li>
             <li> 
-                <figure class="square-icon">
+                <figure class="square-icon u-hover-scale-box-shadow">
                     <img src="assets/img/social-links2.svg" class="icon-img">
                 </figure>
             </li>
             <li> 
-                <figure class="square-icon">
+                <figure class="square-icon u-hover-scale-box-shadow">
                     <img src="assets/img/social-links4.svg" class="icon-img">
                 </figure>
             </li>
             <li> 
-                <figure class="square-icon">
+                <figure class="square-icon u-hover-scale-box-shadow">
                     <img src="assets/img/social-links3.svg" class="icon-img">
                 </figure>
             </li>
