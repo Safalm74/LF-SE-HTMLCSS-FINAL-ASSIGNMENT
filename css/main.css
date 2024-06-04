@@ -211,7 +211,8 @@ body {
   display: flex;
   flex-direction: column-reverse;
   background-color: var(--header-background-color);
-  position: relative; }
+  position: relative;
+  height: 100vh; }
 
 .col1__showcase-img,
 .col2__showcase-img {
