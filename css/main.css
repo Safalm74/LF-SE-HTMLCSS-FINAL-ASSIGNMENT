@@ -66,13 +66,13 @@ body {
 .header a {
   color: var(--header-achor-color); }
 
-.heading__secondary {
+.heading--secondary {
   font-size: 1rem;
   font-weight: 300;
   line-height: 3rem;
   letter-spacing: 0.005rem; }
 
-.heading__primary {
+.heading--primary {
   font-size: 2.8rem;
   line-height: 3rem;
   font-weight: 800;
@@ -210,7 +210,6 @@ body {
 .row {
   display: flex;
   flex-direction: column-reverse;
-  height: 100vh;
   background-color: var(--header-background-color);
   position: relative; }
 
@@ -252,7 +251,7 @@ body {
 
 @media only screen and (min-width: 1008px) {
   .row {
-    margin: 3rem 6rem;
+    margin: 4rem 8rem;
     flex-direction: row;
     overflow: hidden; }
   .col1 {
@@ -367,7 +366,6 @@ body {
 
 @media only screen and (min-width: 1198px) {
   .application-and-tools {
-    height: 100vh;
     padding: 2.5rem; }
     .application-and-tools__wrapper {
       display: flex;

@@ -26,14 +26,14 @@ body {
 }
 
 .heading {
-    &__secondary {
+    &--secondary {
         font-size: $default-heading-secondary-font-size;
         font-weight: $default-heading-secondary-font-weight;
         line-height: $default-heading-secondary-line-height;
         letter-spacing: 0.005rem;
     }
 
-    &__primary {
+    &--primary {
         font-size: $default-heading-primary-font-size;
         line-height: $default-heading-primary-line-height;
         font-weight: $default-heading-primary-font-weight;
