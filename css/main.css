@@ -260,7 +260,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start; }
+    align-items: flex-start;
+    padding: 8rem; }
   .col2 {
     flex: 1;
     overflow: hidden; } }
