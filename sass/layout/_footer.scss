@@ -1,12 +1,14 @@
 
 
-@media only screen and (min-width:$min-width-large-grid) {
+@media only screen and (min-width:$min-width-medium-grid) {
     .footer {
-        padding: 6rem;
+        margin: 6rem;
+
 
         &__wrapper{
             display: flex;
             justify-content: space-between;
         }
     }
+
 }
