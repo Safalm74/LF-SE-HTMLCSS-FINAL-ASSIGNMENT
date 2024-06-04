@@ -78,11 +78,11 @@ body {
 
 @media only screen and (min-width:$min-width-small) {
     .heading {
-        &__secondary {
+        &--secondary {
             font-size: $medium-heading-secondary-font-size;
         }
 
-        &__primary {
+        &--primary {
             font-size: $medium-heading-primary-font-size;
             line-height: $medium-heading-primary-line-height;
         }
@@ -91,11 +91,11 @@ body {
 
 @media only screen and (min-width:$min-width-large) {
     .heading {
-        &__secondary {
+        &--secondary {
             font-size: $large-heading-secondary-font-size;
         }
 
-        &__primary {
+        &--primary {
             font-size: $large-heading-primary-font-size;
             line-height: $large-heading-primary-line-height;
         }
