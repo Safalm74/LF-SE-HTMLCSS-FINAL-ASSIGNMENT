@@ -1,20 +1,10 @@
 :root {
-    /*
-    --header-background-color: $day-header-background-color;
-    --header-nav-color: $day-header-nav-color;
-    --body-background-color: $day-body-background-color;
-    --header-font-color: $day-header-font-color;
-    --header-achor-color: $day-header-achor-color;
-    --body-font-color-primary: $day-body-font-color-primary;
-    --body-font-color-secondary: $day-body-font-color-secondary;
-    --btn-background-color:rgba(242, 242, 247, 1);*/
-
-    --header-background-color: rgba(255, 255, 255, 1);
-    --header-nav-color: rgba(255, 255, 255, 1);
-    --body-background-color: rgba(244, 246, 251, 1);
-    --header-font-color: black;
-    --header-achor-color: rgba(48, 64, 229, 1);
-    --body-font-color-primary: black;
-    --body-font-color-secondary: rgba(44, 44, 46, 1);
-    --btn-background-color: rgba(244, 246, 251, 1);
+    --header-background-color: #{$day-header-background-color};
+    --header-nav-color: #{$day-header-nav-color};
+    --body-background-color: #{$day-body-background-color};
+    --header-font-color: #{$day-header-font-color};
+    --header-achor-color: #{$day-header-achor-color};
+    --body-font-color-primary: #{$day-body-font-color-primary};
+    --body-font-color-secondary: #{$day-body-font-color-secondary};
+    --btn-background-color:rgba(242, 242, 247, 1);
 }
