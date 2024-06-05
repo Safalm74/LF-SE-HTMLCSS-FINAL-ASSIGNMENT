@@ -30,7 +30,6 @@
 @media only screen and (min-width:$min-width-medium) {
     .application-and-tools {
         padding: 4rem;
-
         &__wrapper {
             display: flex;
             flex-direction: column;
@@ -41,8 +40,6 @@
                     border: none;
                 }
             }
-
-           
         }
         &__list{
                 display: flex;

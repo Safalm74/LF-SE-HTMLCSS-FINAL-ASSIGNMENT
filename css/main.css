@@ -6,16 +6,16 @@
   --header-achor-color: #3040e5;
   --body-font-color-primary: black;
   --body-font-color-secondary: #2c2c2e;
-  --btn-background-color:rgba(242, 242, 247, 1); }
+  --btn-background-color:#f4f6fb; }
 
 .night-theme {
-  --header-background-color: rgba(5, 5, 25, 1);
+  --header-background-color: #050519;
   --header-nav-color: black;
   --header-font-color: white;
-  --header-achor-color: rgba(255, 255, 255, 1);
+  --header-achor-color: white;
   --body-font-color-primary: white;
   --body-font-color-secondary: rgba(255, 255, 255, 0.74);
-  --btn-background-color: rgba(40, 44, 52, 1); }
+  --btn-background-color: #282c34; }
 
 *,
 *::after,
@@ -295,6 +295,9 @@ body {
       .header__nav ul li {
         padding: .5rem 1.2rem;
         border-radius: 3px; }
+        .header__nav ul li:hover {
+          color: purple;
+          cursor: pointer; }
   .header__social-links {
     display: inherit;
     list-style-type: none;

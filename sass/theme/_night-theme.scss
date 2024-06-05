@@ -1,9 +1,9 @@
 .night-theme {
-    --header-background-color: rgba(5, 5, 25, 1);
-    --header-nav-color: black;
-    --header-font-color: white;
-    --header-achor-color: rgba(255, 255, 255, 1);
-    --body-font-color-primary: white;
-    --body-font-color-secondary: rgba(255, 255, 255, 0.74);
-    --btn-background-color: rgba(40, 44, 52, 1);
+    --header-background-color: #{$night-header-background-color};
+    --header-nav-color: #{$night-header-nav-color};
+    --header-font-color: #{$night-header-font-color};
+    --header-achor-color: #{$night-header-achor-color};
+    --body-font-color-primary: #{$night-body-font-color-primary};
+    --body-font-color-secondary: #{$night-body-font-color-secondary};
+    --btn-background-color: #{$night-btn-background-color};
 }
