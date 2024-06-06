@@ -246,7 +246,8 @@ body {
   .row {
     margin: 4rem 8rem;
     flex-direction: row;
-    overflow: hidden; }
+    overflow: hidden;
+    padding: 0; }
   .col1 {
     flex: 1;
     display: flex;
