@@ -1,9 +1,15 @@
 .header {
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 
+    &__logo-wrapper{
+        display:flex;
+        align-items: center;
+        cursor: pointer;
+    }
     &__dropdown-menu-btn {
         display: flex;
         background-color: transparent;
@@ -33,6 +39,7 @@
     &__summary {
         text-align: center;
         transform: translateY(-6rem);
+        padding: 0 3rem ;
     }
 
     &__nav {
